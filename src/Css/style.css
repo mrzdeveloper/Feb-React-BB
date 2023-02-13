@@ -1,0 +1,85 @@
+.Navigation {
+    height: 100vh;
+    background-color: var(--mycolor);
+}
+
+.Navigation .nav-icon {
+    
+
+
+}
+
+.Navigation .nav-btns {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: var(--secondary);
+}
+
+.Navigation .nav-btns .btn {
+    color: white;
+    background-color: rgb(113, 83, 210);
+    margin: 10px;
+    width: 150px;
+    height: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.Navigation .nav-btns .btn:active {
+    border: none;
+}
+
+.Navigation .nav-btns .btn i {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.Navigation .centeral-icon {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+
+}
+
+.Navigation .centeral-icon a {
+    /* transition: 2s; */
+    color: rgb(64, 58, 58);
+    margin-top: auto;
+}
+
+.Navigation .centeral-icon button {}
+
+.Navigation .centeral-icon a:hover {}
+
+/* section 2 style..................... */
+.Slider {
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+
+}
+
+.top-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .top-menu:only-child {
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        color: black;
+
+    }
+}
