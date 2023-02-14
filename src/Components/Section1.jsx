@@ -3,15 +3,14 @@ import { ButtonGroup } from "react-bootstrap";
 import FormatAlignJustifyIcon from '@mui/icons-material/FormatAlignJustify';
 import { Route, Link } from 'react-router-dom';
 const Section1 = () => {
-     return (
+    return (
         <>
             <section className="Navigation">
-                <li><Link to={{ hash: '#xx' }} >Home</Link></li>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-12 col-lg-6">
                             <div className="nav-icon">
-                                <a href="#xx"><i class="bi bi-twitter"></i> Welcome To BB</a>
+                                <a href="#xx"><i class="bi bi-twitter"></i> BB'S</a>
                             </div>
                         </div>
                         <div className="col-12 col-lg-6">
@@ -29,7 +28,9 @@ const Section1 = () => {
                         <div className="col">
                             <div className="centeral-icon">
                                 <a href=""><i class="bi bi-twitter"></i></a>
-                                <button className="w-2 btn btn-success btn-lg d-flex justify-content-center align-items-center" type=""><a href="#xx">Click to Start</a>   </button>
+                                <h1>Welcome To BB</h1>
+                                <h6>AI And Robotic's Technology News</h6>
+                                <button className="btn btn-success btn-lg" type=""><a href="#xx">Get Started</a>   </button>
                             </div>
                         </div>
                     </div>

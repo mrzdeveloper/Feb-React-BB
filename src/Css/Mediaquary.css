@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+
+    .MenuBar {
+        display: none;
+    }
+
+    /* .top-menu-2:only-child {
+    
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        color: var(--main-color);
+    
+    } */
+}

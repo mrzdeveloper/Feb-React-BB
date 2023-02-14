@@ -1,13 +1,10 @@
 .Navigation {
     height: 100vh;
-    background-color: var(--mycolor);
-}
-
-.Navigation .nav-icon {
-    
-
+    background: url("../images/Header.png")top left repeat;
 
 }
+
+.Navigation .nav-icon {}
 
 .Navigation .nav-btns {
     display: flex;
@@ -57,29 +54,47 @@
 
 .Navigation .centeral-icon a:hover {}
 
-/* section 2 style..................... */
-.Slider {
+/* ...........................................Section2==>Menu and SlideShow ...................................... */
+
+.master-frame {
     height: 100vh;
+}
+
+
+.MenuBar {
+    background-color: var(--secondary-color);
+    height: 10vh;
     justify-content: center;
     display: flex;
+    box-shadow: 0 0 0 25 black;
+    border-bottom: 1px solid dimgray;
+    margin-bottom: 5px;
+
+
 
 }
 
-.top-menu {
+.top-menu-1 {
+    margin-top: 10px;
+}
+
+.top-menu-2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 10px;
+
 
 }
 
-@media only screen and (max-width: 600px) {
-    .top-menu:only-child {
+.top-menu-2 a {
+    color: var(--main-color);
+    font-size: 1.5em;
 
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        color: black;
-
-    }
 }
+
+.Slider img {
+    height: 90vh;
+}
+
+
+/* ...........................................Section3==> ...................................... */

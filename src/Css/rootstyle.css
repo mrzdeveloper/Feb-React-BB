@@ -1,0 +1,27 @@
+:root {
+    --main-color: #153048;
+    --secondary-color: #e7ecf0;
+    --third-color: ;
+    --text-light-color: ;
+    --text-color: ;
+    --white-color: ;
+    --dark-color: ;
+
+
+    --h1-font-size: 35;
+    --h2-font-size: 30;
+    --h3-font-size: 25;
+    --h4-font-size: 20;
+    --h5-font-size: 17;
+    --h6-font-size: 15;
+    --p-font-size: 13;
+    --a-font-size: 15;
+    --small-font-size: 12;
+
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-midbold: 600;
+    --font-weight-bold: 700;
+
+
+}
