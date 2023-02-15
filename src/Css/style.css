@@ -6,6 +6,11 @@
 
 .Navigation .nav-icon {}
 
+.Navigation .nav-icon i,
+a {
+    color: rgb(54, 212, 202);
+}
+
 .Navigation .nav-btns {
     display: flex;
     justify-content: end;
@@ -14,8 +19,8 @@
 }
 
 .Navigation .nav-btns .btn {
-    color: white;
-    background-color: rgb(113, 83, 210);
+    background-color: rgb(54, 212, 202);
+    ;
     margin: 10px;
     width: 150px;
     height: 20;
@@ -23,6 +28,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2em;
+    color: black;
 }
 
 .Navigation .nav-btns .btn:active {
@@ -35,6 +41,7 @@
 }
 
 .Navigation .centeral-icon {
+    color: var(--text-color);
     margin-top: 20vh;
     display: flex;
     flex-direction: column;
@@ -46,7 +53,7 @@
 
 .Navigation .centeral-icon a {
     /* transition: 2s; */
-    color: rgb(64, 58, 58);
+    color: rgb(54, 212, 202);
     margin-top: auto;
 }
 
@@ -66,9 +73,8 @@
     height: 10vh;
     justify-content: center;
     display: flex;
-    box-shadow: 0 0 0 25 black;
     border-bottom: 1px solid dimgray;
-    margin-bottom: 5px;
+    top: 1px;
 
 
 
@@ -98,3 +104,49 @@
 
 
 /* ...........................................Section3==> ...................................... */
+
+.Servises {
+    height: 100vh;
+}
+
+.Servises .servises-1 {
+
+    text-align: center;
+    color: rgb(80, 68, 68);
+}
+
+.col-servise-2 {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.col-servise-2.img-servises {
+    display: block;
+    overflow: hidden;
+
+}
+
+.col-servise-2 .img-servises img {
+    width: 100%;
+
+}
+
+.col-servise-2 .items {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.col-servise-2 .items .icon {
+    font-size: 5em;
+    margin-right: 20px;
+}
+
+.col-servise-2 .items .info {
+    text-align: center;
+    color: rgb(110, 104, 104);
+}

@@ -5,12 +5,12 @@ import { Route, Link } from 'react-router-dom';
 const Section1 = () => {
     return (
         <>
-            <section className="Navigation">
+            <section id="HOME" className="Navigation">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-12 col-lg-6">
                             <div className="nav-icon">
-                                <a href="#xx"><i class="bi bi-twitter"></i> BB'S</a>
+                                <a href="#xx"><i class="bi bi-twitter"></i></a>
                             </div>
                         </div>
                         <div className="col-12 col-lg-6">

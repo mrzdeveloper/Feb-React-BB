@@ -6,21 +6,19 @@ import AI4 from "../images/AI4.jpg"
 const Section2 = () => {
     return (<>
         <div className='master-frame'>
-
-
             <section className="MenuBar">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-12">
                             <div className="top-menu-1">
                                 <div id="xx" className="top-menu-2">
-                                    <a href=".">Home</a>
-                                    <a href="">SERVISES</a>
-                                    <a href="">PORTFOLIO</a>
+                                    <a href="#HOME">Home</a>
+                                    <a href="#SERVISES">SERVISES</a>
+                                    <a href="#PORTFOLIO">PORTFOLIO</a>
                                     <a href=""><i>icon0</i></a>
-                                    <a href="">CLIENT</a>
-                                    <a href="">TEAM</a>
-                                    <a href="">CONTACT</a>
+                                    <a href="#CLIENT">CLIENT</a>
+                                    <a href="#TEAM">TEAM</a>
+                                    <a href="#CONTACT">CONTACT</a>
                                 </div>
                             </div>
                         </div>
@@ -30,7 +28,8 @@ const Section2 = () => {
                 </div>
             </section>
 
-            <section id='xx' className="Slider">
+            <section className="Slider">
+                {/* fade */}
                 <Carousel fade>
                     <Carousel.Item>
                         <img
