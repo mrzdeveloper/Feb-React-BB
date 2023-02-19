@@ -4,7 +4,7 @@ const Section3 = () => {
     return (<>
         <section id="SERVISES" className="Servises">
             <div className="container-fluid">
-                <div className="row m-2">
+                <div className="row">
                     <div className="col">
                         <div className="servises-1">
                             <h1>SERVISES</h1>

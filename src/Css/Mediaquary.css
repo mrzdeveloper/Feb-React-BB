@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
 
     .MenuBar {
-        display: none;
+        /* display: none; */
     }
 
     /* .top-menu-2:only-child {
